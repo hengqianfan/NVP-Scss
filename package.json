@@ -1,0 +1,34 @@
+{
+  "name": "nvp-scss",
+  "version": "1.0.6",
+  "description": "NVP系列主题的共用的SCSS文件",
+  "main": "dist/index.js",
+  "types": "dist/types/scss.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hengqianfan/NVP-Scss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hengqianfan/NVP-Scss/issues"
+  },
+  "homepage": "https://github.com/hengqianfan/NVP-Scss#readme",
+  "dependencies": {
+    "@types/node": "^24.2.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "sass": "^1.90.0",
+    "typescript": "^5.9.2"
+  }
+}
